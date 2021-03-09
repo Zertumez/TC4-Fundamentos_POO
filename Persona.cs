@@ -25,7 +25,9 @@ namespace TC4_Fundamentos_POO
             this.nombre = nombre;
             this.apellido = apellido;
         }
-        public void Presentarse()
+        // void => no devuelve nada
+        // virtual => Se puede overridear
+        public virtual void Presentarse()
         {
             Console.WriteLine($"¡Hola!, mi nombre es {this.nombre} {this.apellido}.");
         }

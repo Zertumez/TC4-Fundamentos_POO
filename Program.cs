@@ -23,6 +23,12 @@ namespace TC4_Fundamentos_POO
             persona1.ColorFavorito = "morado";
 
             Console.WriteLine(persona1.ColorFavorito);
+
+            // Alumnos
+
+            Alumno alumno1 = new Alumno("José", "Talamantes", 2759);
+            Console.WriteLine("Primer alumno: " + alumno1.NombreCompleto);
+            alumno1.Presentarse();
         }
     }
 }
